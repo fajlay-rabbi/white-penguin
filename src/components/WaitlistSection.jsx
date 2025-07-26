@@ -50,9 +50,14 @@ const WaitlistSection = () => {
 
       <div className="absolute left-16 md:left-64 bottom-20 w-8 h-8 border-2 border-white/30 bg-opacity-30 rounded-full shadow-md"></div>
       <div className="flex items-center justify-center">
-        <button className="bg-[#FF7C80] text-white font-poppins px-6 py-3 rounded-lg hover:bg-pink-500 transition">
+        <a
+          href="https://form.jotform.com/252058347724157"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#FF7C80] text-white font-poppins px-6 py-3 rounded-lg hover:bg-pink-500 transition"
+        >
           Join the Waitlist
-        </button>
+        </a>
       </div>
 
       <p className="text-white text-sm mt-4 font-poppins italic">
