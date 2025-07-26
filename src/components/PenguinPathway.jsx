@@ -36,7 +36,7 @@ const PenguinPathway = () => {
                 <div
                   key={index}
                   className="flex items-center gap-5 -mr-6"
-                  style={{ marginLeft: `-${index * 55}px` }}
+                  style={{ marginLeft: `-${index * 60}px` }}
                 >
                   <img src={item?.icon} alt="icon" className="w-5 sm:w-7 md:w-8 lg:w-12" />
                   <p className="text-[#111827] font-medium text-xs sm:text-sm md:text-base lg:text-lg font-poppins">
