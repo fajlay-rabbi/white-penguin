@@ -15,9 +15,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-white mt-32  p-8 px-24">
+    <footer className="bg-white mt-16 sm:mt-32 p-2 sm:p-8 sm:px-24">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
-        <div className="flex flex-col items-start mb-4 md:mb-0">
+        <div className="flex flex-col items-start mb-4 -ml-4 sm:-ml-0">
           <div className="flex items-center">
             <img src={LOGO} alt="WhitePenguin Logo" className="h-16 w-auto" />
             <img
@@ -49,7 +49,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-[#3B3B3B]">
+
+        <div className="flex flex-col mb-5 sm:mb-0 md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-[#3B3B3B]">
           <div>
             <h3 className="font-semibold border-b-2 border-[#008080] mb-2 text-[#008080] font-poppins inline-block pb-1">
               Links
@@ -83,6 +84,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
         <div className="flex flex-col space-y-8 md:items-end">
           <div>
             <h3 className="font-semibold border-b-2 border-[#008080] mb-2 text-[#008080] font-poppins inline-block pb-1">

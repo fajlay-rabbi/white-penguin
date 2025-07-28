@@ -30,9 +30,9 @@ const EarlyAccessForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mt-24 bg-white p-4">
-      <div className="bg-[#147C75] text-white p-8 rounded-xl max-w-5xl w-full shadow-xl relative">
-        <h2 className="text-[4rem] font-bold text-center font-dongle leading-[0.85] m-0">
+    <div className="flex justify-center items-center mt-24 bg-white p-2 sm:p-4">
+      <div className="bg-[#147C75] text-white p-6 sm:p-8 rounded-xl max-w-5xl w-full shadow-xl relative">
+        <h2 className="text-4xl sm:text-[4rem] font-bold text-center font-dongle leading-[0.85] m-0">
           Built for Preschools and Daycares.
           <br />
           Ready to Try It First?
@@ -74,12 +74,12 @@ const EarlyAccessForm = () => {
               />
               Yes, I Want Early Access
             </label>
-            <p className="text-[#FF7C80] font-poppins text-sm opacity-70">
+            <p className="text-[#FF7C80] font-poppins text-sm opacity-70 hidden sm:inline-block">
               Please enter a valid email.
             </p>
           </div>
 
-          <div className="w-full md:max-w-lg mx-auto flex justify-center">
+          <div className="w-full md:max-w-lg mx-auto flex justify-center mt-2">
             <button
               type="submit"
               className="max-w-[200px] bg-[#FF7C80] text-white px-2 py-3 rounded-lg font-semibold hover:bg-[#f95c5c] transition"

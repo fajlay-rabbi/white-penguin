@@ -3,7 +3,7 @@ import WhitePenguinCard from "./WhitePenguinCard";
 
 export default function WhyWhitePenguinSection() {
   return (
-    <section className="relative bg-white py-12 px-4 md:px-16 text-center">
+    <section className="relative bg-white py-12 px-2 md:px-16 text-center">
       {/* Decorative Circles */}
       <div className="hidden md:block absolute left-8 top-48 w-12 h-12 bg-[#FCE7F3]  rounded-full z-0"></div>
       <div className="hidden md:block absolute right-8 -bottom-10 w-16 h-16 bg-[#CCFBF1]  rounded-full z-0"></div>

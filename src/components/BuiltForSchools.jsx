@@ -9,8 +9,8 @@ const BuiltForSchools = () => {
       <div className="hidden md:block absolute left-0 top-32 w-16 h-16 bg-[#CCFBF1] opacity-4 rounded-full z-0"></div>
 
       <div className="hidden md:block absolute -right-4 bottom-2 w-12 h-12 bg-[#FCE7F3] opacity-2 rounded-full z-10"></div>
-      <h2 className="text-6xl sm:text-[5rem] font-dongle font-bold md:text-[5rem] mb-4">
-        <span className="text-[#FF7C80] text-[5rem] sm:text-[5rem] font-dongle font-bold">
+      <h2 className="text-4xl sm:text-[5rem] font-dongle font-bold md:text-[5rem] mb-4">
+        <span className="text-[#FF7C80] text-[4rem] sm:text-[5rem] font-dongle font-bold">
           Built for Schools
         </span>{" "}
         That Care
@@ -20,7 +20,7 @@ const BuiltForSchools = () => {
         Penguin adapts to your flow — from admissions to graduation.
       </p>
 
-      <div className="flex flex-col md:flex-row justify-center items-center w-full max-w-6xl  mx-auto gap-4 px-4">
+      <div className="flex flex-col md:flex-row justify-center items-center w-full max-w-6xl  mx-auto gap-4 sm:px-4">
         <InfoCard
           bgColor="bg-[#FF7C801A]"
           textColor="text-[#FF7C80]"

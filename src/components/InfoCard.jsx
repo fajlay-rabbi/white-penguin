@@ -1,4 +1,3 @@
-import React from "react";
 import STAR_1 from "../assets/svg/star-1.svg";
 import STAR_2 from "../assets/svg/star-2.svg";
 
@@ -10,8 +9,9 @@ const InfoCard = ({ bgColor, textColor, imageSrc, title, items }) => {
   } else if (textColor === "#15803D" || textColor === "text-[#15803D]") {
     starIcon = STAR_2;
   }
+
   return (
-    <div className={`rounded-2xl ${bgColor} w-full p-4 mx-auto`}>
+    <div className={`rounded-2xl ${bgColor} w-full p-3 sm:p-4 mx-auto`}>
       <div className="mb-4">
         <img src={imageSrc} alt="Illustration" className="h-24 w-auto" />
       </div>
@@ -20,16 +20,16 @@ const InfoCard = ({ bgColor, textColor, imageSrc, title, items }) => {
       >
         {title}
       </h3>
-      <ul className="space-y-3 text-sm px-4 md:text-lg">
+      <div className="flex flex-col items-start justify-start space-y-3 text-sm px-4 md:text-lg">
         {items.map((item, idx) => (
-          <li key={idx} className={`${textColor} flex items-start gap-3`}>
+          <div key={idx} className={`${textColor} flex items-start  gap-2 sm:gap-3`}>
             {starIcon && (
-              <img src={starIcon} alt="star" className="h-5 w-5 mt-1" />
+              <img src={starIcon} alt="star" className="h-5 w-5" />
             )}
-            <span className="font-poppins">{item}</span>
-          </li>
+            <p className="font-poppins text-left">{item}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -12,9 +12,9 @@ import F_9 from "../assets/svg/F-9.svg";
 
 const FeaturesSection = () => {
   return (
-    <section className="py-12 px-16 bg-white">
+    <section className="py-12 px-5 sm:px-16 bg-white">
       <div className="container mx-auto text-center">
-        <h2 className="text-[4rem] font-bold font-dongle text-[#111827] mb-2 leading-none">
+        <h2 className="text-5xl text-[4rem] font-bold font-dongle text-[#111827] mb-2 leading-9">
           Powerful Features. Designed With <br /> You in Mind.
         </h2>
         <p className="text-[#4B5563] font-poppins mb-8">

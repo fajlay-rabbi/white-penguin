@@ -4,14 +4,14 @@ import LogoText from "../assets/svg/logoTest.svg";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-8 py-4  bg-white">
+    <nav className="flex items-center justify-between px-2 sm:px-8 py-4  bg-white">
       {/* Left: Logo */}
-      <div className="flex items-center">
-        <img src={Logo} alt="WhitePenguin Logo" className="h-16 w-auto" />
+      <div className="flex items-center gap-1">
+        <img src={Logo} alt="WhitePenguin Logo" className="h-12 sm:h-16 w-auto" />
         <img
           src={LogoText}
           alt="WhitePenguin Logo"
-          className="h-6 w-auto -ml-3 mt-2 md:h-8"
+          className="h-5 sm:h-6 w-auto -ml-3 mt-2 md:h-8"
         />
       </div>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       {/* Right: Button */}
       <div>
-        <button className="bg-[#2BA197] text-white font-poppins px-6 py-2 rounded-lg shadow-xl hover:scale-105 transform transition duration-300 ease-in-out">
+        <button className="bg-[#2BA197] text-white font-poppins px-3 sm:px-6 py-1 xs:py-2 rounded-lg shadow-xl hover:scale-105 transform transition duration-300 ease-in-out">
           Join Waitlist
         </button>
       </div>
