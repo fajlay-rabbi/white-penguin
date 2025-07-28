@@ -25,7 +25,7 @@ export default function WhyWhitePenguinSection() {
         paper, the WhatsApp chaos, and the late-night admin work.
       </p>
 
-      <div className="grid md:grid-cols-2 gap-6 justify-center items-stretch">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-6 justify-center items-stretch">
         <CurrentRealityCard />
         <WhitePenguinCard />
       </div>
