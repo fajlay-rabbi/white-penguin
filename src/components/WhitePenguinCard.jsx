@@ -18,7 +18,7 @@ export default function WhitePenguinCard() {
 
       {/* Card box */}
       <div className="border-2 border-[#15803D80] rounded-lg bg-white shadow-md w-full h-[320px] p-6 flex flex-col justify-center">
-        <div className="space-y-4 flex flex-col items-center justify-center text-[#15803D] text-base font-poppins">
+        <div className="space-y-4 flex flex-col items-start mx-auto justify-center text-[#15803D] text-lg font-poppins">
           <div className="flex items-center gap-3">
             <img src={STUDENT} alt="Student" className="w-6 h-6" />
             <span className="font-semibold">Student Management</span>
