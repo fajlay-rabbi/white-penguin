@@ -1,6 +1,7 @@
 import React from "react";
-import PHONE from "../assets/svg/phone2.svg";
+import PHONE from "../assets/images/peaceOfMind.svg";
 import Tick from "../assets/svg/star-2.svg";
+import { PeaceOfMind } from "../assets/resources";
 
 const features = [
   "Tour schools and apply online in minutes",
@@ -29,19 +30,19 @@ const SmartPaymentsSection = () => {
                   alt="Check"
                   className="w-4 h-4 mt-1 mr-2 flex-shrink-0"
                 />
-                <p className="text-[#111827] text-lg font-medium font-poppins">{feature}</p>
+                <p className="text-[#111827] text-lg font-medium font-poppins">
+                  {feature}
+                </p>
               </li>
             ))}
           </ul>
         </div>
 
         <div className="md:w-1/2 flex justify-center relative">
-          <div className="h-80 w-80 md:w-96 md:h-96 bg-[#FFEAEB] rounded-full absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"></div>
-          <div className="w-80 h-80 md:w-96 md:h-96 bg-[#FFEAEB66] rounded-full absolute left-1/2 top-[40%] transform -translate-x-1/2 -translate-y-1/2 z-0"></div>
           <img
             src={PHONE}
-            alt="Phone mockup"
-            className="w-64 md:w-80 h-auto relative z-30"
+            alt="Phone"
+            className="w-80 h-96 md:w-[430px] md:h-auto z-10 relative"
           />
         </div>
       </div>

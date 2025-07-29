@@ -23,15 +23,15 @@ const WaitlistSection = () => {
     <section className="bg-[#0E8077] py-16 px-4 text-center relative">
       {/* Circle 1: Left side, aligned with heading, with text */}
       <div
-        className="absolute left-0 top-16 flex items-center"
+        className="absolute -left-5 lg:left-0 top-10 lg:top-16 flex items-center"
         style={{ transform: "translateY(-50%)" }}
       >
-        <div className="relative flex items-center justify-center w-16 h-16 ml-8">
-          <div className="flex items-center justify-center  w-16 h-16 bg-[#0E8077]  bg-slate-300opacity-30 border-2  border-white/30 rounded-full text-[#0E8077] font-bold text-sm shadow-lg z-10  "></div>
+        <div className="relative flex items-center justify-center w-16 h-16 -ml-10 sm:ml-8">
+          <div className="flex items-center justify-center  w-16 h-16 bg-[#0E8077]  bg-slate-300opacity-30 border-2  border-white/30 rounded-full text-[#0E8077] font-bold text-sm shadow-lg z-10"></div>
         </div>
       </div>
-      <h2 className="text-[4rem] md:text-[4rem] font-bold font-dongle text-white mb-12">
-        Join the Waitlist
+      <h2 className="text-[3rem] font-bold font-dongle text-white mb-12 leading-9">
+        Ready to Transform Your Childcare Operations?
       </h2>
 
       <div className="flex flex-wrap justify-center gap-6 mb-10 relative">

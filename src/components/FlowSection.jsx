@@ -35,7 +35,7 @@ const FlowSection = () => {
   const [hoveredStep, setHoveredStep] = useState(null);
 
   return (
-    <section className="py-12 bg-white text-center ml-0 md:ml-12 overflow-hidden">
+    <section id="how" className="py-12 bg-white text-center ml-0 md:ml-12 overflow-hidden">
       <div className="container flex flex-col sm:flex-row items-center justify-between mx-auto mb-8 relative">
         <img
           src={GRA}

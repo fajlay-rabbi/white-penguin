@@ -8,10 +8,8 @@ import Streamline from './images/Streamline.svg';
 import QuickAndEasy from './images/quickAndEasy.svg';
 import Blurb from './images/blurb.svg';
 import PhoneBlurb from './images/phoneBlurb.svg';
-
-
-
-
+import PeaceOfMind from './images/peaceOfMind.svg';
+import MenuIcon from './images/MENU.svg';
 
 export {
     PenguinPathwayHouseImg,
@@ -23,5 +21,7 @@ export {
     Streamline,
     QuickAndEasy,
     Blurb,
-    PhoneBlurb
+    PhoneBlurb,
+    PeaceOfMind,
+    MenuIcon
 }

@@ -1,11 +1,10 @@
-import React from "react";
 import InfoCard from "./InfoCard";
 import ADMIN from "../assets/svg/admin.svg";
 import PARENT from "../assets/svg/parent.svg";
 
 const BuiltForSchools = () => {
   return (
-    <section className="relative px-4 py-16 max-w-6xl mx-auto text-center">
+    <section id="builtFor" className="relative px-4 py-16 max-w-6xl mx-auto text-center">
       <div className="hidden md:block absolute left-0 top-32 w-16 h-16 bg-[#CCFBF1] opacity-4 rounded-full z-0"></div>
 
       <div className="hidden md:block absolute -right-4 bottom-2 w-12 h-12 bg-[#FCE7F3] opacity-2 rounded-full z-10"></div>

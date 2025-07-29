@@ -1,4 +1,3 @@
-import React from "react";
 import BOY1 from "../assets/svg/boy-1.svg";
 import BOY2 from "../assets/svg/boy-2.svg";
 import TAB from "../assets/svg/tab.svg";
@@ -42,16 +41,22 @@ const HeroSection = () => {
         </p>
 
         <div className="mt-8">
-          <button className="bg-[#2BA197] text-white px-6 py-3 rounded-xl shadow-xl hover:scale-105 transition duration-300">
-            Join the Waitlist
-          </button>
+          <a
+            href="https://form.jotform.com/252058347724157"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-[#2BA197] text-white px-6 py-3 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+              Join the Waitlist
+            </button>
+          </a>
         </div>
       </div>
 
       {/* Image Section - Centered with respect to outer div */}
       <div className="mt-6 flex flex-col justify-center items-center w-full px-4">
         <div className="relative w-full lg:max-w-4xl 2xl:max-w-[1500px] flex justify-center mb-6">
-          <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 w-full">
+          <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 w-full md:w-[80%] 2xl:w-full">
             <img src={TAB} alt="App Preview" className="w-full h-auto" />
           </div>
         </div>

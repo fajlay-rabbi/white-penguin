@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import CenterDevicePreview from "./components/CenterDevicePreview";
 import BuiltForSchools from "./components/BuiltForSchools";
 import WhyWhitePenguinSection from "./components/WHyWhitePenguinSection";
 import FeaturesSection from "./components/FeaturesSection";
@@ -13,8 +12,11 @@ import TestimonialsSection from "./components/TestimonialsSection";
 import FAQList from "./components/FAQList";
 import EarlyAccessForm from "./components/EarlyAccessForm";
 import PenguinPathway from "./components/PenguinPathway";
+import { useRef } from "react";
 
 function App() {
+  const scrollContainerRef = useRef(null);
+
   return (
     <div className="h-screen flex">
       {/* Left side spacer - fixed */}
@@ -22,10 +24,10 @@ function App() {
 
       {/* Main scrollable content area */}
       <div className="flex-1 flex flex-col h-screen overflow-hidden">
-        <div className="flex-1 overflow-y-auto">
+        <div ref={scrollContainerRef} className="flex-1 overflow-y-auto">
           <main className="min-h-full flex flex-col">
             <div className="flex-1">
-              <Navbar />
+              <Navbar scrollContainerRef={scrollContainerRef} />
               <HeroSection />
               <BuiltForSchools />
               <WhyWhitePenguinSection />
@@ -39,7 +41,7 @@ function App() {
               <FAQList />
               <EarlyAccessForm />
             </div>
-            <Footer />
+            <Footer scrollContainerRef={scrollContainerRef} />
           </main>
         </div>
       </div>

@@ -13,7 +13,7 @@ const FAQList = () => {
     {
       question: "What does it cost?",
       answer:
-        "We offer a free plan with all the essentials to get started. For schools that want extra tools like reporting or the CEO dashboard, we have premium plans — with discounts for early adopters.",
+        "We offer a free trial with all the essentials to get started. For schools that want extra tools like curriculum planning or the CEO dashboard, we have premium plans - with discounts for early adopters.",
     },
     {
       question: "Can I use it too?",
@@ -26,7 +26,7 @@ const FAQList = () => {
   ];
 
   return (
-    <div className="max-w-4xl mt-24 mx-auto p-4">
+    <div id="faq" className="max-w-4xl mt-24 mx-auto p-4">
       <h2 className="text-[4rem] font-bold text-center font-dongle">
         Got Questions?
       </h2>

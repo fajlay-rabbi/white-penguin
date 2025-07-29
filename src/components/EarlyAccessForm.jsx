@@ -19,7 +19,6 @@ const EarlyAccessForm = () => {
       return;
     }
 
-    console.log({ email, school, agree });
     toast.success("Successfully submitted your information!");
 
     // Reset form
@@ -30,7 +29,7 @@ const EarlyAccessForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mt-24 bg-white p-2 sm:p-4">
+    <div id="waitlist" className="flex justify-center items-center mt-24 bg-white p-2 sm:p-4">
       <div className="bg-[#147C75] text-white p-6 sm:p-8 rounded-xl max-w-5xl w-full shadow-xl relative">
         <h2 className="text-4xl sm:text-[4rem] font-bold text-center font-dongle leading-[0.85] m-0">
           Built for Preschools and Daycares.
@@ -80,13 +79,20 @@ const EarlyAccessForm = () => {
           </div>
 
           <div className="w-full md:max-w-lg mx-auto flex justify-center mt-2">
-            <button
-              type="submit"
-              className="max-w-[200px] bg-[#FF7C80] text-white px-2 py-3 rounded-lg font-semibold hover:bg-[#f95c5c] transition"
+            <a
+              href="https://form.jotform.com/252058347724157"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Join the Waitlist
-            </button>
+              <button
+                type="button"
+                className="max-w-[200px] bg-[#FF7C80] text-white px-2 py-3 rounded-lg font-semibold hover:bg-[#f95c5c] transition"
+              >
+                Join the Waitlist
+              </button>
+            </a>
           </div>
+
           <p className="text-center text-xs mt-2 text-white opacity-70 font-poppins">
             Takes less than 30 seconds.
           </p>
