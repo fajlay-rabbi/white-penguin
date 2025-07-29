@@ -7,7 +7,7 @@ export default function WhyWhitePenguinSection() {
       {/* Decorative Circles */}
       <div className="hidden md:block absolute left-8 top-48 w-12 h-12 bg-[#FCE7F3]  rounded-full z-0"></div>
       <div className="hidden md:block absolute right-8 -bottom-10 w-16 h-16 bg-[#CCFBF1]  rounded-full z-0"></div>
-      <p className="text-sm text-gray-600 mb-2">
+      <p className="text-xl text-gray-600 mb-2">
         Why{" "}
         <span className="text-[#FF7C80] font-poppins text-xl">
           White Penguin
