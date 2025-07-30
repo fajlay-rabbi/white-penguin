@@ -95,7 +95,7 @@ const TestimonialsSection = () => {
         Built with Schools Like Yours
       </h2>
       <p className="text-[#4B5563] mb-8 font-poppins">
-        Over 50 school owners have already joined our early access list.
+        over 150 schools have already joined our early access list.
       </p>
 
       <div className="max-w-6xl mx-auto">
